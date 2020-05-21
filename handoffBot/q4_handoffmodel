@@ -1,0 +1,16 @@
+
+const mongoose = require('mongoose');
+const HandOff = new mongoose.Schema({
+  ticket: { type: String, required: true },
+  issue: { type: String, required: true },
+  solution: { type: String, required: true },
+  regardingUser: { type: String, required: true },
+  sendingUser: { type: String, required: true },
+
+  timestamp: { type: String, required: true },
+  notified: { type: String, required: false},
+
+});
+
+
+module.exports = mongoose.model('HandOff', HandOff);

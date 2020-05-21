@@ -1,0 +1,21 @@
+{
+  "name": "handoffbot",
+  "version": "1.0.0",
+  "description": "handoffbot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ZalmyKarimi",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^5.7.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.10",
+    "request": "^2.88.0"
+  }
+}
